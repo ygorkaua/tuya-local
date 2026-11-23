@@ -3,6 +3,9 @@ products:
   - id: mphbe14dfodk8cz2
     manufacturer: ILIFE
     model: V20
+  - id: ej2kcgqxdzuyuejx
+    manufacturer: KaBuM!
+    model: Smart K1000
 entities:
   - entity: vacuum
     dps:
@@ -452,6 +455,15 @@ entities:
     category: config
     dps:
       - id: 45
+        type: boolean
+        optional: true
+        name: switch
+  - entity: switch
+    name: Y-shape mop mode
+    icon: "mdi:vector-polyline"
+    category: config
+    dps:
+      - id: 48
         type: boolean
         optional: true
         name: switch
